@@ -10,4 +10,4 @@ spring:
     nacos:
       discovery:
         service: provide
-        server-addr: localhost:8888
+        server-addr: localhost:8848

@@ -22,7 +22,7 @@ spring:
             data-type: json
             rule-type: flow
 
-#暴露actuator端点   http://localhost:8800/actuator/sentinel
+#暴露actuator端点   http://localhost:9010/actuator/sentinel
 management:
   endpoints:
     web:

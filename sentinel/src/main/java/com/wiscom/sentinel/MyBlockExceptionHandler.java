@@ -1,5 +1,6 @@
 //package com.wiscom.sentinel;
 //
+//import com.alibaba.csp.sentinel.adapter.servlet.callback.UrlBlockHandler;
 //import com.alibaba.csp.sentinel.adapter.spring.webmvc.callback.BlockExceptionHandler;
 //import com.alibaba.csp.sentinel.slots.block.BlockException;
 //import com.alibaba.csp.sentinel.slots.block.authority.AuthorityException;
@@ -15,6 +16,7 @@
 //
 //import javax.servlet.http.HttpServletRequest;
 //import javax.servlet.http.HttpServletResponse;
+//import java.io.IOException;
 //
 //
 ///**
@@ -23,11 +25,11 @@
 // */
 //
 //@Component
-//public class MyBlockExceptionHandler implements BlockExceptionHandler {
-//    Logger log = LoggerFactory.getLogger(BlockExceptionHandler.class);
+//public class MyBlockExceptionHandler implements UrlBlockHandler {
+//    Logger log = LoggerFactory.getLogger(MyBlockExceptionHandler.class);
 //
 //    @Override
-//    public void handle(HttpServletRequest request, HttpServletResponse response, BlockException e) throws Exception {
+//    public void blocked(HttpServletRequest request, HttpServletResponse response, BlockException e) throws IOException {
 //        log.info("BlockExceptionHandler BlockException================" + e.getRule());
 //        String s = null;
 //
