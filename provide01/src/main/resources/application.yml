@@ -1,0 +1,13 @@
+server:
+  port: 9000
+
+
+spring:
+  application:
+    name: provide
+
+  cloud:
+    nacos:
+      discovery:
+        service: provide
+        server-addr: localhost:8888

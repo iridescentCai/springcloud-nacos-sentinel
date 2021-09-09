@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumerFeign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumerRestemplate" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provide01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provide02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provideConfig" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel" charset="UTF-8" />
+  </component>
+</project>

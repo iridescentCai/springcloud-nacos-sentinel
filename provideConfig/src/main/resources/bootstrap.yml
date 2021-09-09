@@ -1,0 +1,14 @@
+spring:
+#  profile 的配置文件 大于 默认配置的文件。
+#  profiles:
+#    active: dev
+  application:
+    name: nacos-config
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8888
+        file‐extension: yaml
+#        可以自定义配置namespace,group
+#        namespace: xxxxx
+#        group: xxxxx

@@ -1,0 +1,15 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: consumerFeign
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8888
+        service: consumerFeign
+
+feign:
+  hystrix:
+    enabled: true
